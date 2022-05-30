@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "meta-coin",
+    "slug": "meta-coin",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "meta-coin"
+}
