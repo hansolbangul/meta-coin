@@ -5,7 +5,7 @@ require File.join(File.dirname(`node --print "require.resolve('@react-native-com
 require 'json'
 podfile_properties = JSON.parse(File.read(File.join(__dir__, 'Podfile.properties.json'))) rescue {}
 
-platform :ios, podfile_properties['ios.deploymentTarget'] || '12.0'
+platform :ios, podfile_properties['ios.deploymentTarget'] || '14.0'
 install! 'cocoapods',
   :deterministic_uuids => false
 
@@ -32,6 +32,10 @@ target 'metacoin' do
   # if !ENV['CI']
   #   use_flipper!()
   # end
+
+  if ENV['IDENSIC_WITH_MRTDREADER']
+    pod 'OpenSSL-Universal', :configurations => ['Debug', 'Release']
+  end
 
   post_install do |installer|
     react_native_post_install(installer)

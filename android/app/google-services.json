@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "884393293852",
+    "project_id": "meta-coin-87020",
+    "storage_bucket": "meta-coin-87020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884393293852:android:ef8c1ea86d11c36de707d9",
+        "android_client_info": {
+          "package_name": "com.metacoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884393293852-nkblqpgf99td3rmgj1jjvbfumnfqs3ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.metacoin",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "884393293852-kqhclk0fvdeqb9gq04rtiksl3acjhnr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQlugaWAoznnADZHhmK0gtIA-QERkNRmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884393293852-kqhclk0fvdeqb9gq04rtiksl3acjhnr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
